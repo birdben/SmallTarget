@@ -1,0 +1,33 @@
+<!--add.wxml-->
+<view class="container">
+  <form bindsubmit="formSubmit" bindreset="formReset">
+      <view class="container1">
+        <label class="item1">{{label_target_name}}</label>
+        <input type="text" placeholder="{{holder_target_name}}" class=""/>
+      </view>
+      <view class="container1">
+        <label class="item1">{{label_target_proof}}</label>
+        <input type="text" placeholder="{{holder_target_proof}}" class=""/>
+      </view>
+      <view class="container1">
+        <label class="item1">{{label_target_start_time}}</label>
+        <input type="text" placeholder="{{holder_target_start_time}}" class=""/>
+      </view>
+      <view class="container1">
+        <label class="item1">{{label_target_end_time}}</label>
+        <input type="text" placeholder="{{holder_target_end_time}}" class=""/>
+      </view>
+      <view class="container1">
+        <label class="item1">{{label_target_success}}</label>
+        <input type="text" placeholder="{{holder_target_success}}" class=""/>
+      </view>
+      <view class="container1">
+        <label class="item1">{{label_target_failed}}</label>
+        <input type="text" placeholder="{{holder_target_failed}}" class=""/>
+      </view>
+      <view class="btn-area">
+        <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}" bindtap="primary"> 保存 </button>
+      </view>
+  </form>
+</view>

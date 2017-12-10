@@ -1,0 +1,16 @@
+/**add.wxss**/
+.container1{
+    height: 100%;
+    width:100%;
+    background-color:#fff;
+    display:flex;
+    align-items: left;
+}
+
+.item1{
+    height:100rpx;
+    width:200rpx;
+    background-color:#fff;
+    border: 1px solid #fff;
+    align-items: left;
+}
